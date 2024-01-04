@@ -1,20 +1,25 @@
 #!/usr/bin/python3
-""" empty class Rectangle that defines a rectangle """
+""" empty class Rectangle that defines a rectangle
+"""
+
 
 class Rectangle:
-    """ class Rectangle """
+    """ class rectangle"""
     def __init__(self, width=0, height=0):
-        """ Instantiation with optional width and height """
+        """ Instantiation with optional width and height"""
         self.width = width
         self.height = height
 
     @property
     def width(self):
-        """ width"""
+        """ width
+        """
         return self.__width
 
+    @property
     def height(self):
-        """ height"""
+        """height
+        """
         return self.__height
 
     @width.setter
